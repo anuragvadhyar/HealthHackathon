@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Womenopause</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Womenopause</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Healthy Diet Plan</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Meditation</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Yoga</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact an E-therapist</a> 
+   <!-- <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> -->
+  </div>
+</nav>  
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Womenopause</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Welcome!</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Information about menopause</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+        <p>Changes in your hormones during menopause can impact your mental health as well as your physical health. You may experience feelings of anxiety, stress or even depression. Menopausal symptoms may include:
+        <ul>
+            <li>anger and irritability</li>
+            <li>anxiety</li>
+            <li>forgetfulness</li>
+            <li>loss of self-esteem</li>
+            <li>loss of confidence</li>
+            <li>low mood and feelings of sadness or depression</li>
+            <li>poor concentration – often described as 'brain fog' and/or lost words</li>
+        </ul>
+        </p>
+        <br>
+        <p>Womenopause is a website to help you understand and recognise mental health difficulties while going through menopause. Especially those women from orthodox households can seek help on their own and start making the necessary steps towards recovery. </p>   
+    </div>
+    <div class="w3-half">
+        <img src="C:\Users\Admin\Hackathon\menopause-symptoms-722x406.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      </div>
+  </div>
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- diet plan -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Diet Plan</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h3>Menopause diet plan to boost your energy and stabilize your mood</h3>
+    <h4>1. Pick the right grain</h4>
+    <p>Rice, wheat, corn, millets- ragi, jowar, bajra, oats, quinoa, buckwheat, barley – all these and their products come under the grain category.</p>
+    <br>
+    <h4>2. Consume legumes/ dal regularly</h4>
+    <p>We often miss dal in our daily diet. There are days when you may have only roti or rice with vegetables skipping the dal.If you are a vegetarian, make a conscious effort to consume 1-2 bowls of dal/ legumes every day
+    <br>
+    <h4>3. You need good fat</h4>
+    <p>Consider using kachhi ghani mustard oil or double-filtered groundnut oil/ sesame oil or cold-pressed coconut oil etc. The thumb rule is that the cooking oil should have its color and flavor.</p>
+    <br>
+    <h3>Supplements that can be taken: </h3>
+    <p>
+      <ul>
+      <li>Black Cohosh: Help for Hot Flashes</li>
+      <li>Flaxseed: Easing Night Sweats</li>
+      <li>Vitamin D: Get Some Sun</li>
+      <li>Wild Yam: Alternative to Hormones</li>
+      <li>Ginseng: Mood Booster</li>
+    </ul>
+    </p>
+  </div>
+
+  
+  <!-- meditation -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Meditation</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Meditation has been practiced for thousands of years. Meditation originally was meant to help deepen understanding of the sacred and mystical forces of life. These days, meditation is commonly used for relaxation and stress reduction.
+
+      Meditation is considered a type of mind-body complementary medicine. Meditation can produce a deep state of relaxation and a tranquil mind.
+      
+      During meditation, you focus your attention and eliminate the stream of jumbled thoughts that may be crowding your mind and causing stress. This process may result in enhanced physical and emotional well-being.</p>
+    
+    
+  </div>
+
+  <!-- The Team -->
+  <!--div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Doe</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Yoga poses</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p></p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom" >
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Standing pose(Warrior 2)</li>
+        <li class="w3-padding-16">TRY IT Start with feet parallel and one leg-length apart. Turn right foot out 90 degrees and left foot in slightly. </li>
+        <li class="w3-padding-16">Keeping torso facing forward, bend right knee so thigh is parallel to floor and stretch arms out to sides.</li>
+        <li class="w3-padding-16">Turn head to right and gaze over front fingertips. Hold 20 to 30 seconds or for 3 to 5 breaths.</li>
+        <li class="w3-padding-16">Repeat on opposite side.</li>
+      </ul>
+      <br>
+      <br>
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32">Lunge pose</li>
+        <li class="w3-padding-16">on your hands and knees. </li>
+        <li class="w3-padding-16">up your wrists directly beneath your shoulders. Line up your knees directly
+          beneath your hips, and spread them apart a distance equal to your inner hip width.</li>
+        <li class="w3-padding-16">you inhale, tuck your toes under and expand your upper chest forward, keeping your
+          lower abdominals engaged and your lower spine in neutral. </li>
+        <li class="w3-padding-16">you exhale, relax onto the tops of your feet, round your back through the lower
+          spine, and completely relax your head.</li>
+          <li class="w3-padding-16">at an individual pace, coordinating your movements with your breaths.</li>  
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Fill in your details</p>
+    <form method="POST" action="Chatbot-main\index.html" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+  
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Click to open chat bot</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"></a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
