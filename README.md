@@ -61,4 +61,3 @@ The "E-Therapy Bot" (accessible through `botpage.html`) provides a conversationa
     - Test the website and chatbot on various devices to ensure responsiveness and functionality.
     - Deploy the project on a web server or hosting platform for public access.
 
-This project aims to provide a comprehensive support system for women going through menopause, combining educational content with interactive e-therapy through a chatbot interface.
