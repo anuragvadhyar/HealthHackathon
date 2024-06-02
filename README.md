@@ -44,20 +44,4 @@ The "E-Therapy Bot" (accessible through `botpage.html`) provides a conversationa
 **Integration:**
 - A link on the main website (`index.html`) redirects users to the chatbot page (`botpage.html`), making it easy for users to switch from reading information to interacting with the chatbot.
 
-### Implementation Steps
-1. **HTML and CSS Development:**
-    - Create the main HTML structure for both the website and the chatbot.
-    - Apply CSS styles to ensure a responsive and visually appealing layout.
-
-2. **JavaScript Development:**
-    - Implement sidebar and modal functionality on the main website.
-    - Develop the chatbot interaction logic in `main.js` to handle user messages and provide appropriate responses.
-
-3. **Content Creation:**
-    - Populate the website with relevant content on menopause symptoms, diet plans, meditation practices, and yoga poses.
-    - Ensure the content is informative and supportive, catering to the needs of women experiencing menopause.
-
-4. **Testing and Deployment:**
-    - Test the website and chatbot on various devices to ensure responsiveness and functionality.
-    - Deploy the project on a web server or hosting platform for public access.
 
